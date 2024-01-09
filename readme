@@ -1,0 +1,33 @@
+* Text Tools
+
+I know this code is terrible, but I wrote it a long
+time ago and I don't really want to update it.
+
+all - generate all possible combinations of length n
+      from the given alphabet
+e.g:  $ all abc 2
+      aa
+      ab
+      ac
+      ba
+      bb
+      bc
+      ca
+      cb
+      cc
+
+dot - move a dot through a word
+e.g:  $ dot cool
+      c.ool
+      co.ol
+      coo.l
+
+gen - generate a word of length n with specified
+      vowels or consonants.
+e.g:  $ gen ccvc
+      lkop
+
+rnd - generate a word of length n from given
+      alphabet
+e.g:  $ rnd cool 7
+      cclolol
